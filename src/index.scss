@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+  background: #E5E5E5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(7px + 5 * (100vw/960));
+}
+
+@media (min-width: 1024px) {
+  body{
+    font-size: 12px;
+  }
+
+
+}
+
+@media (max-width: 425px){
+  body{
+    font-size: calc(6px + 5 * ((100vw - 320px)/960));
+  }
+}
